@@ -6,14 +6,14 @@ export OPENSTACK_RELEASE=2023.2
 export CONTAINER_DISTRO_NAME=ubuntu
 export CONTAINER_DISTRO_VERSION=jammy
 
-cd upstream/openstack-helm/
-git pull https://opendev.org/openstack/openstack-helm.git
+cd src/openstack-helm/
+#git pull https://opendev.org/openstack/openstack-helm.git
 make all
 mv *.tgz ../../charts/
 
 
 cd ../openstack-helm-infra
-git pull https://opendev.org/openstack/openstack-helm-infra.git
+#git pull https://opendev.org/openstack/openstack-helm-infra.git
 make ceph-mon
 make ceph-provisioners
 make mariadb
