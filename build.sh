@@ -9,7 +9,7 @@ export CONTAINER_DISTRO_VERSION=jammy
 cd src/openstack-helm/
 #git pull https://opendev.org/openstack/openstack-helm.git
 make all
-mv *.tgz ../../charts/
+mv *.tgz ../../docs/
 
 
 cd ../openstack-helm-infra
@@ -21,8 +21,8 @@ make rabbitmq
 make memcached
 make openvswitch
 make libvirt
-mv *.tgz ../../charts/
+mv *.tgz ../../docs/
 
-cd ../../charts/
+cd ../../docs/
 helm repo index ./ --url https://cloage.github.io/openstack-charts
 
