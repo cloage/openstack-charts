@@ -1,0 +1,694 @@
+apiVersion: v1
+entries:
+  aodh:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.006849942+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: Openstack-Helm Aodh
+    digest: 2af90f668e2943acfab8fa98d095407bea24f185eb8243f5752d6948cc9ae87f
+    home: https://docs.openstack.org/aodh/latest/
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: aodh
+    sources:
+    - https://opendev.org/openstack/aodh
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/aodh-0.2.8.tgz
+    version: 0.2.8
+  barbican:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.012201257+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Barbican
+    digest: 7877c74e4c6f554e489e52a528119ea5447a55b99c07e0081421b339743cf6d5
+    home: https://docs.openstack.org/barbican/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Barbican/OpenStack_Project_Barbican_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: barbican
+    sources:
+    - https://opendev.org/openstack/barbican
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/barbican-0.3.6.tgz
+    version: 0.3.6
+  ceilometer:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.02300353+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Ceilometer
+    digest: 16fdbea315838d3064893ec5fdb0c2d74b409ffdcd2775ca15e5287a6176f3cb
+    home: https://docs.openstack.org/ceilometer/latest/
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: ceilometer
+    sources:
+    - https://opendev.org/openstack/ceilometer
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/ceilometer-0.2.8.tgz
+    version: 0.2.8
+  ceph-mon:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.02727978+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Ceph Mon
+    digest: 32337a591a2f2edc240aaa3450b3f0922889de30fbe8b770ba89751c4cc08d01
+    home: https://github.com/ceph/ceph
+    name: ceph-mon
+    urls:
+    - https://cloage.github.io/openstack-charts/ceph-mon-0.1.32.tgz
+    version: 0.1.32
+  ceph-provisioners:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.03234751+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Ceph Provisioner
+    digest: 54a500f96f018e1202d67fb944690f7821f839df8a155f49639a57ae2f5bc11b
+    home: https://github.com/ceph/ceph
+    name: ceph-provisioners
+    urls:
+    - https://cloage.github.io/openstack-charts/ceph-provisioners-0.1.27.tgz
+    version: 0.1.27
+  cinder:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.039670373+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Cinder
+    digest: f47019e7cfda3149d60578288d6613d8845589da8e27b2a934af21b40cc5b979
+    home: https://docs.openstack.org/cinder/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Cinder/OpenStack_Project_Cinder_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: cinder
+    sources:
+    - https://opendev.org/openstack/cinder
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/cinder-0.3.15.tgz
+    version: 0.3.15
+  cyborg:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.043631279+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Cyborg
+    digest: 7d1adcb59f3e624c55b92d1a37434c6304b7cf9066a4d8cbb291576bead02d00
+    home: https://docs.openstack.org/cyborg
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Cyborg/OpenStack_Project_Cyborg_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: cyborg
+    sources:
+    - https://opendev.org/openstack/cyborg
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/cyborg-0.1.3.tgz
+    version: 0.1.3
+  designate:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.048803416+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Designate
+    digest: fdd23bcca073725bf07640136ee782cb6ce1d4027c44604d87dfd3b12621bf93
+    home: https://docs.openstack.org/designate/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Designate/OpenStack_Project_Designate_vertical.jpg
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: designate
+    sources:
+    - https://opendev.org/openstack/designate
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/designate-0.2.9.tgz
+    version: 0.2.9
+  glance:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.055282755+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Glance
+    digest: e9dfc6dbd51eb5769802c8e9b28c56196abbe5c49d9eca018a157f0af8b4e070
+    home: https://docs.openstack.org/glance/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Glance/OpenStack_Project_Glance_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: glance
+    sources:
+    - https://opendev.org/openstack/glance
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/glance-0.4.15.tgz
+    version: 0.4.15
+  heat:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.06232094+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Heat
+    digest: 1d37e7e23effcba41c87febc9e156c0745b2379b2477f002249b9c66dee0fa52
+    home: https://docs.openstack.org/heat/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Heat/OpenStack_Project_Heat_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: heat
+    sources:
+    - https://opendev.org/openstack/heat
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/heat-0.3.7.tgz
+    version: 0.3.7
+  horizon:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.067428804+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Horizon
+    digest: ee78594d7ab7c5ecf7a1ed2820a1c0acd82cd95084d73cf435e2a18aac874673
+    home: https://docs.openstack.org/horizon/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Horizon/OpenStack_Project_Horizon_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: horizon
+    sources:
+    - https://opendev.org/openstack/horizon
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/horizon-0.3.15.tgz
+    version: 0.3.15
+  ironic:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.072752014+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Ironic
+    digest: c43fea4e9c662430c73cdf6202951f2391b802738f215ea8e1bd92affdcf1054
+    home: https://docs.openstack.org/ironic/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Ironic/OpenStack_Project_Ironic_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: ironic
+    sources:
+    - https://opendev.org/openstack/ironic
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/ironic-0.2.10.tgz
+    version: 0.2.10
+  keystone:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.078854462+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Keystone
+    digest: 858ba4df1a584d84f34208b1c5bf692b75ba33e1c6d81a3e822f0b5e9e840699
+    home: https://docs.openstack.org/keystone/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Keystone/OpenStack_Project_Keystone_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: keystone
+    sources:
+    - https://opendev.org/openstack/keystone
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/keystone-0.3.5.tgz
+    version: 0.3.5
+  libvirt:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.082480221+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm libvirt
+    digest: b5e65111b8c1da2afe6498d987e0b986cb4d4ecbcb3cdf8571b4e682e3ccf48b
+    home: https://libvirt.org
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: libvirt
+    sources:
+    - https://libvirt.org/git/?p=libvirt.git;a=summary
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/libvirt-0.1.27.tgz
+    version: 0.1.27
+  magnum:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.086618999+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Magnum
+    digest: de7552a5fa0def640a0ae678768278ee2f0fcf7b88113bb9e1e234dff65fb6ed
+    home: https://docs.openstack.org/magnum/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Magnum/OpenStack_Project_Magnum_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: magnum
+    sources:
+    - https://opendev.org/openstack/magnum
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/magnum-0.2.9.tgz
+    version: 0.2.9
+  manila:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.092819496+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Manila
+    digest: 8c88f9055c87d658927894fc0bb79e901708ad4e84dcef09cda93c188515a316
+    home: https://docs.openstack.org/manila/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Manila/OpenStack_Project_Manila_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: manila
+    sources:
+    - https://opendev.org/openstack/manila
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/manila-0.1.7.tgz
+    version: 0.1.7
+  mariadb:
+  - apiVersion: v1
+    appVersion: v10.6.7
+    created: "2023-11-15T21:29:48.098858497+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm MariaDB
+    digest: ac112a79e8849b1781cc9e2fec55875b640d3654b01028c655f28b9a4121daf6
+    home: https://mariadb.com/kb/en/
+    icon: http://badges.mariadb.org/mariadb-badge-180x60.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: mariadb
+    sources:
+    - https://github.com/MariaDB/server
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/mariadb-0.2.34.tgz
+    version: 0.2.34
+  masakari:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.102963956+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Masakari
+    digest: d9015d30a6abb4c55bb21303f43a11d5be17274547c0d9440682acbad00f500f
+    home: https://docs.openstack.org/developer/masakari
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Masakari/OpenStack_Project_masakari_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: masakari
+    sources:
+    - https://opendev.org/openstack/masakari
+    - https://opendev.org/openstack/masakari-monitors
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/masakari-0.1.7.tgz
+    version: 0.1.7
+  memcached:
+  - apiVersion: v1
+    appVersion: v1.5.5
+    created: "2023-11-15T21:29:48.105738688+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Memcached
+    digest: b7482d894ce80dc67ad0e54e88327376fb284180f0a79e5d186bf0bcf26015e8
+    home: https://github.com/memcached/memcached
+    name: memcached
+    urls:
+    - https://cloage.github.io/openstack-charts/memcached-0.1.13.tgz
+    version: 0.1.13
+  mistral:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.110469005+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Mistral
+    digest: 60e1fab01adf5886d297c4bb9b42e3b400848d26f1c37b4bd91221b2fb3df2fd
+    home: https://docs.openstack.org/mistral/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Mistral/OpenStack_Project_Mistral_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: mistral
+    sources:
+    - https://opendev.org/openstack/mistral
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/mistral-0.2.7.tgz
+    version: 0.2.7
+  monasca:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.116930696+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Monasca API
+    digest: 0afc0cc051007f6e0a86c2e6a983d4e2b5335f626f62d2244107c96b46a0b8fe
+    home: https://docs.openstack.org/monasca/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Monasca/OpenStack_Project_Monasca_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: monasca
+    sources:
+    - https://opendev.org/openstack/monasca
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/monasca-0.1.1.tgz
+    version: 0.1.1
+  neutron:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.126698975+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Neutron
+    digest: c33dac890ab1384bf1072ccf00290ef758ed12b7776ebb5ee20107e2e8ebbfb0
+    home: https://docs.openstack.org/neutron/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Neutron/OpenStack_Project_Neutron_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: neutron
+    sources:
+    - https://opendev.org/openstack/neutron
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/neutron-0.3.29.tgz
+    version: 0.3.29
+  nova:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.136601649+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Nova
+    digest: ae3b90374f5f3c43c1887e2279fff7dd494ee37b31aa2edb27b6648415fd8627
+    home: https://docs.openstack.org/nova/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Nova/OpenStack_Project_Nova_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: nova
+    sources:
+    - https://opendev.org/openstack/nova
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/nova-0.3.29.tgz
+    version: 0.3.29
+  octavia:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.141895942+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Octavia
+    digest: 58c58a0b85a52e6d08c0ab10bb1d10fc457916c772a3eecf4b4b6d5284eaff37
+    home: https://docs.openstack.org/octavia/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Octavia/OpenStack_Project_Octavia_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: octavia
+    sources:
+    - https://opendev.org/openstack/octavia
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/octavia-0.2.9.tgz
+    version: 0.2.9
+  openstack:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-15T21:29:48.205690939+03:30"
+    dependencies:
+    - condition: helm-toolkit.enabled
+      name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>0.1.0'
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: file://../../openstack-helm-infra/mariadb
+      version: '>0.1.0'
+    - condition: rabbitmq.enabled
+      name: rabbitmq
+      repository: file://../../openstack-helm-infra/rabbitmq
+      version: '>0.1.0'
+    - condition: memcached.enabled
+      name: memcached
+      repository: file://../../openstack-helm-infra/memcached
+      version: '>0.1.0'
+    - condition: keystone.enabled
+      name: keystone
+      repository: file://../keystone
+      version: '>0.1.0'
+    - condition: heat.enabled
+      name: heat
+      repository: file://../heat
+      version: '>0.1.0'
+    - condition: glance.enabled
+      name: glance
+      repository: file://../glance
+      version: '>0.1.0'
+    - condition: openvswitch.enabled
+      name: openvswitch
+      repository: file://../../openstack-helm-infra/openvswitch
+      version: '>0.1.0'
+    - condition: libvirt.enabled
+      name: libvirt
+      repository: file://../../openstack-helm-infra/libvirt
+      version: '>0.1.0'
+    - condition: nova.enabled
+      name: nova
+      repository: file://../nova
+      version: '>0.1.0'
+    - condition: placement.enabled
+      name: placement
+      repository: file://../placement
+      version: '>0.1.0'
+    - condition: neutron.enabled
+      name: neutron
+      repository: file://../neutron
+      version: '>0.1.0'
+    - condition: horizon.enabled
+      name: horizon
+      repository: file://../horizon
+      version: '>0.1.0'
+    description: A chart for openstack helm commmon deployment items
+    digest: add65b5e2901c7261ae4380cf8444a6a9e6a9916e5623d325226e5853b3858b9
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: openstack
+    type: application
+    urls:
+    - https://cloage.github.io/openstack-charts/openstack-0.2.5.tgz
+    version: 0.2.5
+  openvswitch:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.20865075+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm OpenVSwitch
+    digest: c83d81e602879e2b41f6b6ca17a089e381333519ea54f6a5871f21da5794b773
+    home: http://openvswitch.org
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Neutron/OpenStack_Project_Neutron_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: openvswitch
+    sources:
+    - https://github.com/openvswitch/ovs
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/openvswitch-0.1.19.tgz
+    version: 0.1.19
+  placement:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.212376385+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Placement
+    digest: 1c00cb6541a9683870e00527059dbcbdd2bf1a21fff6040492b755d4935062ad
+    home: https://docs.openstack.org/placement/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Placement/OpenStack_Project_Placement_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: placement
+    sources:
+    - https://opendev.org/openstack/placement
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/placement-0.3.9.tgz
+    version: 0.3.9
+  rabbitmq:
+  - apiVersion: v1
+    appVersion: v3.9.0
+    created: "2023-11-15T21:29:48.216118352+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm RabbitMQ
+    digest: e5ff23675220989992393e8b599847e2c779a662f2875e82da75ceddc2f5c2b4
+    home: https://github.com/rabbitmq/rabbitmq-server
+    name: rabbitmq
+    urls:
+    - https://cloage.github.io/openstack-charts/rabbitmq-0.1.30.tgz
+    version: 0.1.30
+  rally:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.231133023+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm rally
+    digest: e88d14af6d12ea54e5be62ef34050b3b38e1b2ff54b85c977ede47167214c92c
+    home: https://docs.openstack.org/developer/rally
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/rally/OpenStack_Project_rally_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: rally
+    sources:
+    - https://opendev.org/openstack/rally
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/rally-0.2.8.tgz
+    version: 0.2.8
+  senlin:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.236274086+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Senlin
+    digest: 810b5eff7efb73841b44012f73a2ac2cb62350172068b0efbe420fe733cb0a7c
+    home: https://docs.openstack.org/senlin/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Senlin/OpenStack_Project_Senlin_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: senlin
+    sources:
+    - https://opendev.org/openstack/senlin
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/senlin-0.2.9.tgz
+    version: 0.2.9
+  tacker:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.240671773+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Tacker
+    digest: cfae180f4e80bb54c28c8073e63003b91428136e27879889340882332c2b281e
+    home: https://docs.openstack.org/tacker/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Tacker/OpenStack_Project_Tacker_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: tacker
+    sources:
+    - https://opendev.org/openstack/tacker
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/tacker-0.1.2.tgz
+    version: 0.1.2
+  tempest:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-11-15T21:29:48.244049626+03:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: file://../../openstack-helm-infra/helm-toolkit
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Tempest
+    digest: 137e5f11f2609ac23f39dd3392765cfeb075737c3c31427234781cc289fd5210
+    home: https://docs.openstack.org/tempest/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/tempest/OpenStack_Project_tempest_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: tempest
+    sources:
+    - https://opendev.org/openstack/tempest
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://cloage.github.io/openstack-charts/tempest-0.2.8.tgz
+    version: 0.2.8
+generated: "2023-11-15T21:29:48.001686415+03:30"
